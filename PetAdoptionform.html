@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <h2 style="text-align: center;">Pet Adoption Application Form</h2>
+     <form>
+        <fieldset>
+          <legend>Personal Details</legend><br>
+
+            <label for="Fname">First Name:</label>
+            <input type="text" name="fname"><br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname"><br><br>
+            <label for="age">Age:</label>
+            <input type="text" name="age"><br><br><br>
+
+            Do you own or rent your home?
+            <label for="home">Own</label>
+            <input type="radio" name="home">
+            <label for="home">Rent</label>
+            <input type="radio" name="home"><br><br><br>
+
+
+           <label for="children"> Are there children in the home? (If yes, please list ages)</label>
+            <textarea id="children" name="children" rows="4" cols="50"></textarea>
+            </textarea><br><br>
+
+           <label for="hour"> How many hours per day would the pet be alone?</label>
+           <textarea id="hour" name="hour" rows="4" cols="50"></textarea><br><br>
+        </fieldset><br>
+
+        <fieldset>
+           <legend>Pet details</legend>
+              <h4>Do you own any pets?</h4>
+               <label for="pet">Yes</label>
+               <input type="radio" name="pet">
+               <label for="pet">No</label>
+               <input type="radio" name="pet">
+    
+
+              <h4>I have a:</h4>
+              <label for="cat">Cat</label>
+              <input type="checkbox" name="cat"><br>
+              <label for="dog">Dog</label>
+              <input type="checkbox" name="dog"> <br>
+              <label for="other">Other</label>
+              <input type="checkbox" name="other"><br><br>
+
+              <label for="Petname">Pet Name(s)</label>
+              <input type="text" name="Petname"><br><br>
+              <label for="petbreed">Pet Breed(s)</label>
+              <input type="text" name="petbreed"><br><br>
+        </fieldset><br>
+
+        <fieldset><br>
+          <legend>contact details</legend>
+          <label for="phonenumber">Phone Number</label>
+          <input type="text" name="phonenumber" required><br><br>
+          <label for="email">Email-Id</label>
+          <input type="email" name="email" required><br> <br>
+
+          <label for="address">Address</label>
+          <textarea  id="address" name="address" rows="4" cols="50"></textarea><br><br>
+            
+          <input type="submit">
+          <input type="reset">
+        </fieldset>
+     </form>
+  </div>
+</body>
+</html>
