@@ -1,17 +1,17 @@
-body {
+.image {
     text-align:center;
-    background-image:url(https://c4.wallpaperflare.com/wallpaper/26/332/1005/light-pastel-colors-wallpaper-preview.jpg);
-    background-repeat: no-repeat;
-    background-size:1950px; 
+    height:300px;
+}
+h1 {
+    text-align: center;
+    height:100px;
 }
 legend {
-  font-weight: 700;
-  color:	#e9879f;
+ text-align:center;
+ font-size: x-large;
 }
-
-
 form {
-  background-color:#cce6ff;
+  background-color:wheat;
   margin-left: auto;
   margin-right: auto;
   display:block;
@@ -26,13 +26,7 @@ textarea {
   border:2px;
 }
  
-div {
-  margin-top:1em;
-}
-  
-
 label {
  width:100px;
  display:inline-block;
 }
-
